@@ -38,7 +38,6 @@ class EnpointSipForm(BaseForm):
 class LineForm(BaseForm):
     context = SelectField(l_('Context'), choices=[])
     protocol = SelectField(choices=[('sip', l_('SIP')), ('custom', l_('CUSTOM'))])
-    twilio_incoming = BooleanField(l_('Twilio Incoming'))
     endpoint_sip = FormField(EnpointSipForm)
     endpoint_custom = FormField(EnpointCustomForm)
     submit = SubmitField(l_('Submit'))

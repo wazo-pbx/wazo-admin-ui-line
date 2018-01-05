@@ -111,7 +111,5 @@ class LineListingView(LoginRequiredView):
                 text = '{} ({})'.format(line['endpoint_custom']['interface'], 'custom')
             if line.get('endpoint_sip'):
                 text = '{} ({})'.format(line['endpoint_sip']['username'], 'sip')
-            if line.get('endpoint_iax'):
-                text = '{} ({})'.format(line['endpoint_iax']['username'], 'iax')
             results.append({'id': line['id'], 'text': text})
         return results
