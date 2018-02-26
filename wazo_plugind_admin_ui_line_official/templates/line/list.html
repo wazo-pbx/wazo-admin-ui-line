@@ -1,12 +1,12 @@
 {% extends "layout.html" %}
 
 {% block content_header %}
-  {{ build_breadcrumb('Line', '', 'exchange', ['List']) }}
+  {{ build_breadcrumb(_('Line'), '', 'exchange', [_('List')]) }}
 {% endblock %}
 
 {% block content %}
   <section class="content">
-    {% call build_list_containers('Lines', 'exchange') %}
+    {% call build_list_containers(_('Lines'), 'exchange') %}
       {% call build_list_table() %}
         {% call build_list_table_headers(get=url_for('.LineView:get', id=''), delete=url_for('.LineView:delete', id='')) %}
           <th width="75">{{ _('Protocol') }}</th>
@@ -18,9 +18,9 @@
         {% call(line) build_list_table_rows(resource_list['items']) %}
           <td>
             {% if line.endpoint_sip %}
-              SIP
+              {{ _('SIP') }}
             {% elif line.endpoint_custom %}
-              CUSTOM
+              {{ _('CUSTOM') }}
             {% else %}
               -
             {% endif %}
@@ -41,8 +41,10 @@
 
 
     {% call build_hidden_add_containers(_('Choose your protocol')) %}
-      <button type="button" class="btn btn-block btn-default" onclick="location.href='{{ url_for('.LineView:new', protocol='sip') }}'">SIP</button>
-      <button type="button" class="btn btn-block btn-default" onclick="location.href='{{ url_for('.LineView:new', protocol='custom') }}'">CUSTOM</button>
+      <button type="button" class="btn btn-block btn-default"
+              onclick="location.href='{{ url_for('.LineView:new', protocol='sip') }}'">{{ _('SIP') }}</button>
+      <button type="button" class="btn btn-block btn-default" onclick="location.href='{{ url_for('.LineView:new',
+              protocol='custom') }}'">{{ _('CUSTOM') }}</button>
     {% endcall %}
 
   </section>
