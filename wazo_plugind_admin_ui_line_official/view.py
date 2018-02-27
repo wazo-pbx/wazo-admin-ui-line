@@ -1,15 +1,16 @@
-# Copyright 2017 The Wazo Authors  (see the AUTHORS file)
+# Copyright 2017-2018 The Wazo Authors  (see the AUTHORS file)
 # SPDX-License-Identifier: GPL-3.0+
 
-from flask_babel import lazy_gettext as l_
 from flask import jsonify, request, render_template
+from flask_babel import lazy_gettext as l_
 from flask_menu.classy import classy_menu_item
 
-from wazo_admin_ui.helpers.classful import (LoginRequiredView,
-                                            BaseView,
-                                            NewViewMixin,
-                                            extract_select2_params,
-                                            build_select2_response)
+from wazo_admin_ui.helpers.classful import (
+    LoginRequiredView,
+    BaseView,
+    extract_select2_params,
+    build_select2_response
+)
 from wazo_admin_ui.helpers.destination import listing_urls
 
 from .form import LineForm
