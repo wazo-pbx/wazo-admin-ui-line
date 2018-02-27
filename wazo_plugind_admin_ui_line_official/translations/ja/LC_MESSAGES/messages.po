@@ -1,14 +1,14 @@
-# Translations template for wazo-admin-ui-line.
+# Translations template for wazo_admin_ui_line.
 # Copyright (C) 2018 The Wazo Authors  (see the AUTHORS file)
 # This file is distributed under the same license as the
-# wazo-admin-ui-line project.
+# wazo_admin_ui_line project.
 # Wazo Dev Team <dev@wazo.community>, 2018.
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: wazo-admin-ui-line 0.1\n"
+"Project-Id-Version: wazo_admin_ui_line 0.1\n"
 "Report-Msgid-Bugs-To: 'dev@wazo.community'\n"
-"POT-Creation-Date: 2018-02-26 08:51-0500\n"
+"POT-Creation-Date: 2018-02-27 13:42-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: Japanese (https://www.transifex.com/wazo/teams/69545/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -82,20 +82,56 @@ msgstr ""
 msgid "Submit"
 msgstr ""
 
+#: wazo_plugind_admin_ui_line_official/templates/line/edit.html:4
 #: wazo_plugind_admin_ui_line_official/templates/line/list.html:9
 #: wazo_plugind_admin_ui_line_official/templates/line/protocol_custom.html:4
+#: wazo_plugind_admin_ui_line_official/templates/line/protocol_sip.html:4
 #: wazo_plugind_admin_ui_line_official/view.py:22
 msgid "Lines"
 msgstr ""
 
+#: wazo_plugind_admin_ui_line_official/templates/line/edit.html:4
+#: wazo_plugind_admin_ui_line_official/templates/line/list.html:4
+#: wazo_plugind_admin_ui_line_official/templates/line/protocol_custom.html:4
+#: wazo_plugind_admin_ui_line_official/templates/line/protocol_sip.html:4
+msgid "List"
+msgstr ""
+
+#: wazo_plugind_admin_ui_line_official/templates/line/edit.html:14
+#: wazo_plugind_admin_ui_line_official/templates/line/edit.html:15
+#: wazo_plugind_admin_ui_line_official/templates/line/edit.html:68
 #: wazo_plugind_admin_ui_line_official/templates/line/list.html:4
 #: wazo_plugind_admin_ui_line_official/templates/line/protocol_custom.html:10
+#: wazo_plugind_admin_ui_line_official/templates/line/protocol_sip.html:12
+#: wazo_plugind_admin_ui_line_official/templates/line/protocol_sip.html:13
 msgid "Line"
 msgstr ""
 
-#: wazo_plugind_admin_ui_line_official/templates/line/list.html:4
-#: wazo_plugind_admin_ui_line_official/templates/line/protocol_custom.html:4
-msgid "List"
+#: wazo_plugind_admin_ui_line_official/templates/line/edit.html:16
+#: wazo_plugind_admin_ui_line_official/templates/line/protocol_sip.html:14
+msgid "Options"
+msgstr ""
+
+#: wazo_plugind_admin_ui_line_official/templates/line/edit.html:23
+#: wazo_plugind_admin_ui_line_official/templates/line/edit.html:39
+#: wazo_plugind_admin_ui_line_official/templates/line/edit.html:70
+msgid "Update"
+msgstr ""
+
+#: wazo_plugind_admin_ui_line_official/templates/line/edit.html:33
+#: wazo_plugind_admin_ui_line_official/templates/line/edit.html:77
+#: wazo_plugind_admin_ui_line_official/templates/line/protocol_sip.html:29
+msgid "Choose Context"
+msgstr ""
+
+#: wazo_plugind_admin_ui_line_official/templates/line/edit.html:44
+#: wazo_plugind_admin_ui_line_official/templates/line/protocol_sip.html:40
+msgid "Option Key"
+msgstr ""
+
+#: wazo_plugind_admin_ui_line_official/templates/line/edit.html:45
+#: wazo_plugind_admin_ui_line_official/templates/line/protocol_sip.html:41
+msgid "Option Value"
 msgstr ""
 
 #: wazo_plugind_admin_ui_line_official/templates/line/list.html:12
@@ -123,5 +159,11 @@ msgid "Choose your protocol"
 msgstr ""
 
 #: wazo_plugind_admin_ui_line_official/templates/line/protocol_custom.html:12
+#: wazo_plugind_admin_ui_line_official/templates/line/protocol_sip.html:20
+#: wazo_plugind_admin_ui_line_official/templates/line/protocol_sip.html:35
 msgid "Add"
+msgstr ""
+
+#: wazo_plugind_admin_ui_line_official/templates/line/protocol_sip.html:24
+msgid "Set host value"
 msgstr ""
