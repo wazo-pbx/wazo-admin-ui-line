@@ -4,12 +4,15 @@
 # wazo_admin_ui_line project.
 # Wazo Dev Team <dev@wazo.community>, 2018.
 # 
+# Translators:
+# Roberto Xavier dos Santos <rxsantos@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: wazo_admin_ui_line 0.1\n"
 "Report-Msgid-Bugs-To: 'dev@wazo.community'\n"
 "POT-Creation-Date: 2018-02-27 13:42-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Roberto Xavier dos Santos <rxsantos@gmail.com>, 2018\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/wazo/teams/69545/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -20,67 +23,67 @@ msgstr ""
 
 #: wazo_plugind_admin_ui_line_official/form.py:19
 msgid "Interface"
-msgstr ""
+msgstr "Interface"
 
 #: wazo_plugind_admin_ui_line_official/form.py:20
 msgid "Interface Suffix"
-msgstr ""
+msgstr "Sufixo da Interface"
 
 #: wazo_plugind_admin_ui_line_official/form.py:30
 msgid "Username"
-msgstr ""
+msgstr "Nome de usuário"
 
 #: wazo_plugind_admin_ui_line_official/form.py:31
 msgid "Secret"
-msgstr ""
+msgstr "Senha"
 
 #: wazo_plugind_admin_ui_line_official/form.py:32
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #: wazo_plugind_admin_ui_line_official/form.py:32
 msgid "User"
-msgstr ""
+msgstr "Usuário"
 
 #: wazo_plugind_admin_ui_line_official/form.py:32
 msgid "Peer"
-msgstr ""
+msgstr "Peer"
 
 #: wazo_plugind_admin_ui_line_official/form.py:32
 msgid "Friend"
-msgstr ""
+msgstr "Friend"
 
 #: wazo_plugind_admin_ui_line_official/form.py:33
 msgid "Host"
-msgstr ""
+msgstr "Host"
 
 #: wazo_plugind_admin_ui_line_official/form.py:34
 msgid "Dynamic"
-msgstr ""
+msgstr "Dinâmico"
 
 #: wazo_plugind_admin_ui_line_official/form.py:34
 msgid "Static"
-msgstr ""
+msgstr "Estático"
 
 #: wazo_plugind_admin_ui_line_official/form.py:40
 msgid "Context"
-msgstr ""
+msgstr "Contexto"
 
 #: wazo_plugind_admin_ui_line_official/form.py:41
 #: wazo_plugind_admin_ui_line_official/templates/line/list.html:21
 #: wazo_plugind_admin_ui_line_official/templates/line/list.html:45
 msgid "SIP"
-msgstr ""
+msgstr "SIP"
 
 #: wazo_plugind_admin_ui_line_official/form.py:41
 #: wazo_plugind_admin_ui_line_official/templates/line/list.html:23
 #: wazo_plugind_admin_ui_line_official/templates/line/list.html:47
 msgid "CUSTOM"
-msgstr ""
+msgstr "PERSONALIZADO"
 
 #: wazo_plugind_admin_ui_line_official/form.py:44
 msgid "Submit"
-msgstr ""
+msgstr "Submeter"
 
 #: wazo_plugind_admin_ui_line_official/templates/line/edit.html:4
 #: wazo_plugind_admin_ui_line_official/templates/line/list.html:9
@@ -88,14 +91,14 @@ msgstr ""
 #: wazo_plugind_admin_ui_line_official/templates/line/protocol_sip.html:4
 #: wazo_plugind_admin_ui_line_official/view.py:22
 msgid "Lines"
-msgstr ""
+msgstr "Linhas"
 
 #: wazo_plugind_admin_ui_line_official/templates/line/edit.html:4
 #: wazo_plugind_admin_ui_line_official/templates/line/list.html:4
 #: wazo_plugind_admin_ui_line_official/templates/line/protocol_custom.html:4
 #: wazo_plugind_admin_ui_line_official/templates/line/protocol_sip.html:4
 msgid "List"
-msgstr ""
+msgstr "Lista"
 
 #: wazo_plugind_admin_ui_line_official/templates/line/edit.html:14
 #: wazo_plugind_admin_ui_line_official/templates/line/edit.html:15
@@ -105,65 +108,65 @@ msgstr ""
 #: wazo_plugind_admin_ui_line_official/templates/line/protocol_sip.html:12
 #: wazo_plugind_admin_ui_line_official/templates/line/protocol_sip.html:13
 msgid "Line"
-msgstr ""
+msgstr "Linha"
 
 #: wazo_plugind_admin_ui_line_official/templates/line/edit.html:16
 #: wazo_plugind_admin_ui_line_official/templates/line/protocol_sip.html:14
 msgid "Options"
-msgstr ""
+msgstr "Opções"
 
 #: wazo_plugind_admin_ui_line_official/templates/line/edit.html:23
 #: wazo_plugind_admin_ui_line_official/templates/line/edit.html:39
 #: wazo_plugind_admin_ui_line_official/templates/line/edit.html:70
 msgid "Update"
-msgstr ""
+msgstr "Atualizar"
 
 #: wazo_plugind_admin_ui_line_official/templates/line/edit.html:33
 #: wazo_plugind_admin_ui_line_official/templates/line/edit.html:77
 #: wazo_plugind_admin_ui_line_official/templates/line/protocol_sip.html:29
 msgid "Choose Context"
-msgstr ""
+msgstr "Escolher Contexto"
 
 #: wazo_plugind_admin_ui_line_official/templates/line/edit.html:44
 #: wazo_plugind_admin_ui_line_official/templates/line/protocol_sip.html:40
 msgid "Option Key"
-msgstr ""
+msgstr "Opção de Chave"
 
 #: wazo_plugind_admin_ui_line_official/templates/line/edit.html:45
 #: wazo_plugind_admin_ui_line_official/templates/line/protocol_sip.html:41
 msgid "Option Value"
-msgstr ""
+msgstr "Opção de Valor"
 
 #: wazo_plugind_admin_ui_line_official/templates/line/list.html:12
 msgid "Protocol"
-msgstr ""
+msgstr "Protocolo"
 
 #: wazo_plugind_admin_ui_line_official/templates/line/list.html:13
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #: wazo_plugind_admin_ui_line_official/templates/line/list.html:14
 msgid "Provisionning Extension"
-msgstr ""
+msgstr "Extensão de Provisionamento"
 
 #: wazo_plugind_admin_ui_line_official/templates/line/list.html:15
 msgid "Caller Id Name"
-msgstr ""
+msgstr "Nome CallerID"
 
 #: wazo_plugind_admin_ui_line_official/templates/line/list.html:16
 msgid "Caller Id Number"
-msgstr ""
+msgstr "Nome CallerID"
 
 #: wazo_plugind_admin_ui_line_official/templates/line/list.html:43
 msgid "Choose your protocol"
-msgstr ""
+msgstr "Escolha seu protocolo"
 
 #: wazo_plugind_admin_ui_line_official/templates/line/protocol_custom.html:12
 #: wazo_plugind_admin_ui_line_official/templates/line/protocol_sip.html:20
 #: wazo_plugind_admin_ui_line_official/templates/line/protocol_sip.html:35
 msgid "Add"
-msgstr ""
+msgstr "Adicionar"
 
 #: wazo_plugind_admin_ui_line_official/templates/line/protocol_sip.html:24
 msgid "Set host value"
-msgstr ""
+msgstr "Definir valor do host"
